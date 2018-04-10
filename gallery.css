@@ -43,6 +43,24 @@ div.item i {
     line-height:60px;
     background:#ffffff;
 }
+div.item.blue{
+    background:blue;
+}
+div.item.blue i {
+    color:blue;
+}
+div.item.red{
+    background:red;
+}
+div.item.red i {
+    color:red;
+}
+div.item.green{
+    background:green;
+}
+div.item.green i{
+    color:green;
+}
 .container{
     display:flex;
     justify-content:center;
