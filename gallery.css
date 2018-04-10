@@ -65,3 +65,6 @@ div.item.green i{
     display:flex;
     justify-content:center;
 }
+div.item img:hover{
+    opacity:0.3;
+}
