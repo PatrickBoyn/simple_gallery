@@ -5,4 +5,8 @@ h1{
 .container{
     display:flex;
     justify-content:center;
+    margin-left:8%;
+}
+img{
+width:70%;
 }
