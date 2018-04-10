@@ -65,9 +65,10 @@ div.item.green i{
     display:flex;
     justify-content:center;
 }
-div.item img:hover{
-    opacity:0.3;
+div.item:hover img{
+    opacity:0.8;
+    filter: grayscale(100%);
 }
 div.item *{
-    transition:all 1s ease-in-out;
+    transition:all .5s ease-in-out;
 }
