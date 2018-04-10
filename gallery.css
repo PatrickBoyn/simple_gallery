@@ -68,3 +68,6 @@ div.item.green i{
 div.item img:hover{
     opacity:0.3;
 }
+div.item *{
+    transition:all 1s ease-in-out;
+}
