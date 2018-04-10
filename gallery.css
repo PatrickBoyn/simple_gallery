@@ -1,12 +1,49 @@
+body{
+    margin:0;
+}
 h1{
     text-align:center;
-    font-family:'Courier', 'Ariel'
+    font-family:'Courier', 'Ariel';
+    background:slategray;
+    color:White;
+    border:3px solid darkblue;
+    border-left:none;
+    border-right:none;
+}
+div.item{
+    position:relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width:220px;
+    max-width:310px;
+    width:100%;
+    background:#000000;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15)
+}
+div.item * {
+    box-sizing:border-box;
+}
+
+div.item img {
+    max-width:100%;
+    vertical-align:top;
+    height:210px;
+}
+div.item i {
+    position: absolute;
+    top:50%;
+    left:50%;
+    border-radius:50%;
+    font-size:34px;
+    columns: #000000;
+    width:60px;
+    height:60px;
+    line-height:60px;
+    background:#ffffff;
 }
 .container{
     display:flex;
     justify-content:center;
-    margin-left:8%;
-}
-img{
-width:70%;
 }
